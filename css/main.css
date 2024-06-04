@@ -1,0 +1,827 @@
+/* Font  */
+
+
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+
+
+/* end font */
+
+/* Nav bar */
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    
+   
+    
+   
+}
+
+ .container-fluid{
+    background-color: transparent ;
+    position: fixed;
+    margin: 0   ;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    float: left;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-nav a{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* <!-- Start Header Section --> */
+
+.Home {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.social-icon a {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+ .test-home {
+
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.social-icon i {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+
+.test-home {
+
+    h5 {
+
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 50px;
+         margin-bottom: 10px;
+         color: RGB(255, 255, 255);
+    }
+
+
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        color: RGB(255, 255, 255);
+    }
+
+}
+
+
+/*   <!--About Me Section --> */
+
+
+
+.about-me-content {
+
+    h3 {
+
+        font-weight: 800;
+        margin-bottom: 5px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    span {
+        color: rgb(153, 153, 153);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    p {
+        line-height: 1.6;
+        font-size: 15px;
+        color: rgb(116, 129, 130);
+        margin: 0px;
+        font-family: "Poppins", sans-serif;
+
+        b {
+            font-weight: 700;
+
+        }
+    }
+
+}
+
+.progress-bar {
+
+    p-custom {
+
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        z-index: 2;
+        font-weight: 500;
+        line-height: 3.1;
+        align-self: self-start;
+        top: 6px;
+
+
+
+    }
+
+    p {
+
+        top: 6px;
+        right: 10px;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        align-self: self-end;
+    }
+
+}
+
+.progress-bar-custom {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 7px inset;
+    position: relative;
+
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+}
+
+.About-me-pic {
+    
+    position: relative;
+    
+    
+}
+
+.dots-bg{
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -30px;
+    bottom: -30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.About-me-pic img {
+    width: 85%
+}
+
+.progg-cust {
+
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.butt-cv {
+    font-size: 13px;
+    padding: 10px 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(28, 28, 28);
+    border-image: initial;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    background: rgb(28, 28, 28);
+
+}
+
+.butt-contact {
+    font-size: 13px;
+    padding: 10px 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(28, 28, 28);
+    border-image: initial;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    color: rgb(238, 238, 238);
+    ;
+
+    &:hover {
+        background-color: rgb(28, 28, 28);
+        color: rgb(238, 238, 238);
+    }
+}
+
+
+
+
+/* <!-- Services Section --> */
+
+.serv-sec {
+    background-color: #f7f7f7;
+    padding-top: 100px;
+}
+
+.services-title h3 {
+    position: relative;
+    font-weight: 900;
+    font-size: 40px;
+    display: inline-block;
+    z-index: 4;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.services-title h3::after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../Images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.services-custom {
+
+
+    i {
+        font-size: 30px;
+        margin-bottom: 20px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        background: #f4f4f4;
+        border-radius: 50%;
+        transition: all 0.5s;
+        padding-left: 18px;
+
+        &:hover {
+            background-color: #343434;
+            color: #f7f7f7;
+        }
+
+    }
+
+    h6 {
+        margin-bottom: 15px;
+        font-weight: 800;
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+        ;
+    }
+
+    p {
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+    }
+}
+
+
+
+/* Portfolio */
+
+.Portfolio-pics {
+
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.filtering {
+
+
+    span {
+        margin: 0 15px;
+        color: #222;
+        font-weight: 700;
+        font-size: 16px;
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+
+
+
+    }
+
+}
+
+
+
+/* overlayer  */
+
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    position: relative;
+}
+
+.portfolio-overlay img {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-overlay:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.portfolio-overlay:hover:before {
+    opacity: 1;
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icons i {
+    color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    text-align: center;
+
+    &:hover {
+        background-color: #eee;
+        color: #111;
+    }
+}
+
+.portfolio-overlay:hover .icons i {
+    opacity: 1;
+}
+
+.portfolio-overlay:hover .icons h6 {
+    opacity: 1;
+}
+
+.icons h6 {
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    position: relative;
+    margin-bottom: 15px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+
+/*  */
+
+
+/* Testimonials Section. */
+
+
+.carousel-custom {
+    width: 90px;
+    height: 90px;
+
+}
+
+.carousel-content {
+    text-align: center;
+}
+
+
+
+
+
+.carousel-fade .btn-cust {
+
+    color: #fff;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+    background-color: #869791;
+
+}
+
+
+.Testimonials-bg {
+    background-color: #f7f7f7;
+}
+
+
+.carousel-caption {
+
+    p {
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+    }
+
+    h6 {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 30px 0 5px;
+        font-family: "Montserrat", sans-serif;
+        color: #343434;
+    }
+
+    span {
+        font-size: 12px;
+        font-weight: 600;
+        color: #888;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* Counter */
+
+
+.counter-custom {
+
+    h3 {
+
+        font-family: "Montserrat", sans-serif;
+        color: #343434;
+        font-weight: 600;
+    }
+
+    p {
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+/* Our Team section */
+
+
+
+.card-Team {
+
+
+    background-color: rgba(52, 52, 52, .8);
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+
+    h4{ 
+            font-weight:500 ;
+            font-size: 25px;
+            font-family:"Montserrat", sans-serif; ;
+            color: #FFFFFF;
+
+    }
+
+    h5{
+        text-transform: uppercase;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family:"Montserrat", sans-serif; ;
+    }
+}
+
+
+
+
+
+.card-hover {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-overlay {
+    position: relative;
+}
+
+.card-overlayimg {
+    width: 100%;
+    display: block;
+}
+
+.card-overlay:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+   background-color: rgba(255, 255, 255, 0.95);;
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+
+    transform: rotate(0deg);
+}
+
+.card-overlay:hover:before {
+    opacity: 1;
+    transform: rotatey(180deg)
+}
+
+.icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icons i {
+    color: black;
+    opacity: 0;
+    transition: opacity 0.5s;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    border-radius: 50%;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+}
+
+.card-overlay:hover .icons i {
+    opacity: 1;
+}
+
+.icons ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Contact US section */
+
+
+
+
+ .icon-circule .fa{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    transition: all 0.5s;
+    line-height: 60px;
+    &:hover{
+        background-color: #343434;
+        color: #FFFFFF;
+    }
+    
+ }
+
+
+ .contact-content{
+
+    h6{
+        font-weight: 700;
+    margin-bottom: 10px;
+    font-family:"Montserrat", sans-serif; 
+    color: #343434 ;
+    font-size: 16px;
+ }
+
+ p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: "Poppins", sans-serif;
+
+
+ }
+
+
+
+}
+ 
+
+.form-control{
+    
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+
+/* .btn-submit{
+    padding: 10px 30px;
+    
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: #1c1c1c;
+    color: #eee;
+    transition: all 0.5s;
+    width: 15%;
+   
+    
+
+    &:hover{
+        background-color:#eee ;
+        color: #1c1c1c;
+        border: 1px solid #1c1c1c;
+    }
+
+} */
+
+
+footer{
+    background: #1c1c1c;
+    padding: 30px;
+
+p{
+    
+        line-height: 1.6;
+        margin: 0;
+        font-size: 15px;
+        color: #748182;
+        font-size: 13px;
+        word-spacing: 2px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+
+        
+      
+}
+
+}
+
+
